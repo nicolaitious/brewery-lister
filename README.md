@@ -52,7 +52,7 @@ Lastly, open [http://localhost:5173] in your browser to see the result.
 
 * BreweryList.tsx (Feature-Specific Table)
 
-This component fetches brewery data from an API, applies client-side filtering, and renders it using GenericTable.tsx.
+    This component fetches brewery data from an API, applies client-side filtering, and renders it using GenericTable.tsx.
 
 * Optimized API Handling
     - 1-second artificial delay for the loader to be visible.
