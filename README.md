@@ -42,6 +42,7 @@ Lastly, open [http://localhost:5173] in your browser to see the result.
 ## Key Features and Architecture
 
 * GenericTable.tsx (reusable table component)
+
     The GenericTable.tsx component is the core reusable table used for displaying brewery data. It supports:
     - Dynamic columns (configurable via props).
     - Sorting (sortable columns, configurable via props).
@@ -50,6 +51,7 @@ Lastly, open [http://localhost:5173] in your browser to see the result.
     - Links instead of plain text in the case of "website_url" keys
 
 * BreweryList.tsx (Feature-Specific Table)
+
 This component fetches brewery data from an API, applies client-side filtering, and renders it using GenericTable.tsx.
 
 * Optimized API Handling
@@ -58,6 +60,7 @@ This component fetches brewery data from an API, applies client-side filtering, 
     - Filters API results to only include "micro" breweries before rendering.
 
 * Dark Theme (Custom Theming)
+
     The system uses a custom Material UI dark theme, with styling overrides for:
     - Rounded elements
     - Static container widths
